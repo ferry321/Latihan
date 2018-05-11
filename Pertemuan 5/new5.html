@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body{
+		background: url(wood.jpg); 
+	}
+	.content{
+		height: 300px;
+		width: 300px;
+		background-image: url(cappucino.jpg);
+		background-size: 500px;
+	}
+	div.content:hover > .penjelasan{
+		background-color: white;
+		opacity:0.5;
+		height: 300px;
+		width: 300px;
+		transition: height 2s;
+		bottom: 0;
+	}
+	
+	.segitiga{
+		height: 0px;
+		width: 0px;
+		border-bottom: 65px solid white;
+		border-right: 65px solid transparent;
+		position: absolute;
+		top: 250px;
+	}
+	.segitiga p{
+		padding: 20px 0px 0px 8px;
+	}
+	.penjelasan{
+		background-color: white;
+		height: 0px;
+		width: 0px;
+		transition: height 2s;
+		padding: 0px;
+		top: 0;
+
+	}
+	/*.penjelasan:hover{
+		background-color: white;
+		opacity:0.5;
+		height: 300px;
+		width: 300px;
+		transition: height 2s;
+*/
+	}
+	.penjelasan p{
+		color: black;
+		padding: 10px 0px 0px 10px;	
+		opacity: 1;
+		font-size: 24px;
+		overflow: hidden;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="content">
+		<div class="segitiga">
+			<p>40K</p>
+		</div>
+		<div class="penjelasan">
+			<p>This coffee good for you</p>
+		</div>
+	</div>
+
+
+
+</body>
+</html>

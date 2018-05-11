@@ -1,0 +1,70 @@
+.left {
+	min-width: 30%;
+	background-color: pink;
+	min-height: 550px;
+	float: left;
+}
+
+.right {
+	min-width: 70%;
+	background-color: lightgreen;
+	min-height: 550px;
+	float: left;
+}
+
+.header {
+	color:white;
+	background: purple;
+	padding: 5px;
+	margin: 5px 500px 5px 5px;
+}
+
+.main-image {
+	color:black;
+	background: orange;
+	padding: 5px;
+	margin: 5px 5px; 5px 5px;
+	min-height: 300px;
+	width: 650px;
+}
+
+.info{
+	width: 150px;
+	float: left;
+	background-color: lightblue;
+	height: 100px;
+	padding: 5px; 
+	margin: 5px;
+}
+
+.footer{
+	width: 650px;
+	float: left;
+	background-color: grey;
+	height: 30px;
+	padding: 5px; 
+	margin: 5px;
+	clear: left;
+	color:white;
+}
+
+/*Buat kiri*/
+
+.logo{
+	color: white;
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+
+.menu{
+	color: white;
+	background-color: blue;
+	width: 200px;
+	margin: 20px 10px;
+	text-align: center;
+	padding: 5px;
+}
